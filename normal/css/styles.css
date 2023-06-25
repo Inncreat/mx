@@ -1,0 +1,165 @@
+/*-------------------------*/
+/*----------FONTS----------*/
+/*-------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*--------------------------*/
+/*----------GLOBAL----------*/
+/*--------------------------*/
+
+*{
+    font-family: 'KoHo', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+    /**/
+    --red-html: #f4621d;
+    --blue-css: #19a1dc;
+    --yellow-js: #ecbe18;
+    --blue-php: #0077ff;
+    /**/
+}
+
+/*-----Etiquetas-----*/
+
+main{
+    margin-top: 100px;
+}
+
+div{
+    border: 0px solid #000;
+}
+
+/*------------------------*/
+/*----------MAIN----------*/
+/*------------------------*/
+
+/*-----Categories-----*/
+
+.cat__father{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*-----*/
+
+.cat__son{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat__son--tech{ 
+    width: 17%;
+    cursor: pointer;
+} 
+
+.cat__son--icos{
+    display: flex;
+    justify-content: center;
+    opacity: .8;
+}
+
+.cat__son--icos i{
+    font-size: 55px;
+}
+
+.cat__son--names{
+    display: flex;
+    justify-content: center;
+    margin: .1vh 0 0 0;
+    display: none;
+}
+
+.cat__son--names span{
+    font-family: 'KoHo', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/*-----*/
+
+.cat__son--html-ico i{
+    color: var(--red-html);
+}
+
+.cat__son--css-ico i{
+    color: var(--blue-css);
+}
+
+.cat__son--js-ico i{
+    color: var(--yellow-js);
+}
+
+.cat__son--php-ico i{
+    color: var(--blue-php);
+}
+
+/*-----*/
+
+.cat__son--html-name span{
+    transition: 0.4s;
+}
+
+.cat__son--html-name span:hover{
+    color: var(--red-html);
+    transition: 0.4s;
+}
+
+.cat__son--css-name span{
+    transition: 0.4s;
+}
+
+.cat__son--css-name span:hover{
+    color: var(--blue-css);
+    transition: 0.4s;
+}
+
+.cat__son--js-name span{
+    transition: 0.4s;
+}
+
+.cat__son--js-name span:hover{
+    color: var(--yellow-js);
+    transition: 0.4s;
+}
+
+.cat__son--php-name span{
+    transition: 0.4s;
+}
+
+.cat__son--php-name span:hover{
+    color: var(--blue-php);
+    transition: 0.4s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+.cat__son{
+    width: 100%;
+    margin: 0 0 0 13vw;
+}
+
+.cat__son--icos i{
+    font-size: 45px;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+.cat__son{
+    width: 60%;
+    margin: 0 0 0 13vw;
+}
+
+.cat__son--icos i{
+    font-size: 50px;
+}
+}

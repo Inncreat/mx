@@ -1,0 +1,68 @@
+input[type="radio"] {
+
+	display: none;
+
+}
+
+.container_gallery_column {
+	flex: 100%;
+	padding: 0px;
+border: 0px solid transparent !important;
+}
+
+.posts{
+
+
+	padding: 0px;
+	border: 0px solid #000;
+
+}
+
+.post .ctn-img img{
+
+	width: 100%;
+	margin-top: 10px;
+
+}
+
+[value="1"]:checked ~ .posts .post[data-category] {
+
+	display: block;
+
+}
+
+[value="1"]:checked ~ .posts .post:not([data-category~="1"]),
+[value="html"]:checked ~ .posts .post:not([data-category~="html"]),
+[value="css"]:checked ~ .posts .post:not([data-category~="css"]),
+[value="js"]:checked ~ .posts .post:not([data-category~="js"]),
+[value="php"]:checked ~ .posts .post:not([data-category~="php"])
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+.container_gallery_column {
+
+	flex: 50%;
+
+}
+
+}
+
+@media screen and (max-width: 580px) {
+
+.container_gallery_column {
+
+	flex: 100%;
+
+}
+
+}

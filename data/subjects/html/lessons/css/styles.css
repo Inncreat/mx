@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  border: 0px solid #000;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'KoHo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+header{
+  width: 100%;
+}
+
+.header_div{
+  width: 90%;
+  margin: 0px 0px 18px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #eeeff2; /* Modern Browsers */ 
+}
+
+main{
+  width: 73%;
+  float: left;
+  margin-top: 100px !important;
+}
+
+.video_container{
+  width: 100%;
+  height: 60vh;
+}
+
+	aside{
+		margin-top: 100px !important;
+	}
+
+.video{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid_container{
+width:88%; 
+height:100%;
+}
+
+.other_txt{
+  position: absolute;
+  left: 60px;
+  margin: 15px 0 0 0;
+  z-index: 1;
+}
+
+.other{
+margin: 50px 0 0 0;
+width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.vids{
+width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vids a{
+  width: 21%;
+  margin: 0 2% 0 2%;
+}
+
+.other_vid{
+  width: 100%;
+}
+
+.section_div{
+  width: 90%;
+  margin: 60px 0px 40px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #e1e0e3; /* Modern Browsers */ 
+}
+
+.section_div-2{
+  width: 80%;
+  margin: 60px 0px 40px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #e1e0e3; /* Modern Browsers */ 
+}
+
+.description{
+  text-align: center;
+  margin: 10 0 40px 0;
+}
+
+.description_txt{
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+/*==========================*/
+/*==========ASIDE===========*/
+/*==========================*/
+
+aside{
+  margin: 20px 0px 50px 0px;
+  width: 25%;
+  float: right;
+}
+
+.profile_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_1 img{
+  width: 25px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 15px;
+}
+
+.aside_div{
+  width: 95%;
+  margin: 25px 0px 25px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #eeeff2; /* Modern Browsers */ 
+}
+
+.btns_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns a{
+  text-decoration: none;
+}
+
+.btn{
+  float: left;
+  border: 0px solid blue;
+  border-radius: 8px;
+  width: 50px;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+  color: #fff!important;
+  background-color: #008ddf!important;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.btn:hover{
+  background-color: #0078e7!important;
+}
+
+.gd-copy{
+margin: 0 3px 0 0;
+}
+
+.xfa{
+padding: 2px 0 2px 0;
+font-size: 13px !important;
+}
+
+.btns_2-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns_2-2 a{
+  text-decoration: none;
+}
+
+.btn_2{
+  border: 0px solid blue;
+  border-radius: 14px;
+  width: 19vw;
+  height: 4.8vh;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+  color: #fff!important;
+  background-color: #02be6e!important;
+  font-size: 14px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_2:hover{
+
+  background-color: #00AE64!important;
+
+    
+}
+
+.btns_3-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns_3-3 a{
+  text-decoration: none;
+}
+
+.btn_3{
+  border: 0px solid blue;
+  border-radius: 14px;
+  width: 19vw;
+  height: 4.8vh;
+  text-align: center;
+  margin: 0px 10px 0px 10px;
+  color: #fff!important;
+  background-color: rgb(199, 0, 57)!important;
+  font-size: 14px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_3:hover{
+
+  background-color: rgb(172, 1, 50)!important;
+
+}
+
+.range_emerald{
+color: #04d79c;
+}
+
+.gd-view, .gd-download{
+  font-size: 12px;
+  margin: 0 3px 0 0;
+}
+
+#user_a, #range_a, #icon_a, #range_a2{
+  text-decoration: none;
+}
+
+#user_a, #range_a{
+  color: #000;
+}
+
+/*==========advertesiment==========*/
+
+.ad{
+  margin: 40px 0px 40px 0px;
+  width: 85%;
+
+  background-color: #f6f5fa;
+  border: 0px solid transparent;
+  overflow: hidden;
+}
+
+.ad_img{
+  width: 35%;
+  float: left;
+}
+
+.ad_img-img{
+  width: 100%;
+}
+
+.ad_txt{
+  width: 63%;
+  float: right;
+  margin: 0px 0 0px 2%;
+  text-decoration: none;
+  color: #000;
+}
+
+.ad_txt-1{
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0 0px 2%;
+}
+
+.ad_txt-2{
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 4px 0 0px 2%;
+}
+
+/*==========License==========*/
+
+.license{
+  margin: 50px 0px 0px 0px;
+  width: 80%;
+  background-color: #f6f5fa;
+  border: 9px solid #f6f5fa;
+}
+
+
+.license_txt{
+  text-align: left;
+  text-decoration: underline;
+}
+
+.type{
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/*==========Facebook==========*/
+
+.facebook{
+  margin: 50px 0px 0px 0px;
+  width: 80%;
+  background-color: #f6f5fa;
+  border: 9px solid #f6f5fa;
+  overflow: hidden;
+}
+
+.facebook_txt{
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn_facebook{
+  float: left;
+  border: 0px solid blue;
+  border-radius: 3px;
+  width: 50px;
+  text-align: center;
+  margin: 8px 8px 0px 8px;
+  color: #fff!important;
+  background-color: #008ddf!important;
+  font-size: 13px;
+  padding: 2px;
+}
+
+.btn_facebook:hover{
+  background-color: #0078e7!important;
+}
+
+/*==========Related==========*/
+
+.related{
+  margin: 25px 0px 0px 0px;
+  width: 80%;
+  background-color: #f6f5fa;
+  border: 9px solid #f6f5fa;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.related_txt{
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn_related{
+  float: left;
+  border: 0px solid blue;
+  border-radius: 3px;
+  width: 50px;
+  text-align: center;
+  margin: 8px 8px 0px 8px;
+  color: #fff!important;
+  background-color: #008ddf!important;
+  font-size: 13px;
+  padding: 1px;
+}
+
+.btn_related:hover{
+  background-color: #0078e7!important;
+}
+
+/*==========Related_table==========*/
+
+.related_table{
+  margin: 10px 0 0 0;
+  width: 90%;
+  border: none;
+}
+
+.related_table-img{
+  width: 94%;
+  margin: 0 3% 2% 3%;
+}
+
+/*==========Details==========*/
+
+.details{
+  margin: 30px 0px 0px 0px;
+  width: 80%;
+  background-color: #f6f5fa;
+  border: 9px solid #f6f5fa;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.details_txt{
+  text-align: left;
+  text-decoration: none;
+  margin: 0 0 10px 0;
+}
+
+.details_table{
+  width: 100%;
+  border: none;
+}
+
+.details_table-txt{
+  text-align: left;
+  font-size: 13px;
+}
+
+.details_table-txt2{
+  text-align: right;
+  font-size: 13px;
+}
+
+.verify{
+  color: #28B463;
+  font-size: 9px;
+}
+
+/*Licenses*/
+
+.license_type_a::before{
+content: "License Type A";
+}
+
+.license_type_a_a::before{
+content: "Libre para usos comerciales sin atribucion";
+}
+
+.license_type_b::before{
+content: "License Type B";
+}
+
+.license_type_b_b::before{
+content: "Privada para uso personal";
+}
+
+/*===========================*/
+/*==========FOOTHER==========*/
+/*===========================*/
+
+.footer_div{
+  width: 90%;
+  margin: 10px 0px 10px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: transparent /* old IE */ 
+  background-color: #e1e0e3; /* Modern Browsers */ 
+}
+
+.footer_div-3{
+  width: 90%;
+  margin: 10px 0px 10px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #e1e0e3; /* Modern Browsers */ 
+}
+
+.footer_div-2{
+  width: 80%;
+  margin: 60px 0px 10px 0px;
+  border: none; height: 1px; /* Set the hr color */ 
+  color: #eeeff2; /* old IE */ 
+  background-color: #e1e0e3; /* Modern Browsers */ 
+}
+
+.derechos{
+text-align: center;
+font-size: 13px;
+  color: #d5d5d5;
+  font-size: 14px;
+}
+
+.gd-up{
+font-size: 9px;
+cursor: pointer;
+}
+
+.block{
+  color: #d5d5d5;
+  font-family: 'Cormorant SC', serif;
+  font-style: italic;
+font-size: 20px;
+}
+
+.cite{
+  color: #d5d5d5;
+font-style: italic;
+font-family: 'Dancing Script', cursive;
+font-size: 30px;
+font-align: center;
+align: rigth;
+}
+
+.foother{
+  width: 100%;
+  background-color: #1d1d1f;
+  border-bottom: 10px solid #1d1d1f;
+  border-top: 5px solid #1d1d1f;
+}
+
+.scroll-top{
+color: #d5d5d5;
+text-align: center;
+margin: 0 0 10px 0;
+}
+
+.text{
+width: 40%;
+}
+
+.text_block{
+margin: 0 0 0 20px;
+}
+
+.text_cite{
+
+text-align: right;
+}
+
+@media screen and (max-width: 1220px){
+
+aside{
+  width: 27%;
+}
+
+.ad{
+  width: 95%;
+}
+
+.license{
+  width: 90%;
+  margin: 50px 0 0 0;
+  border-right: 0px;
+}
+
+.text{
+width: 70%;
+}
+
+.btn{
+margin: 0 !important;
+
+}
+
+#btn{
+margin: 0 15px 0 20px;
+}
+
+.btn_2{
+  width: 22vw;
+}
+
+.btn_3{
+  width: 22vw;
+}
+
+.facebook{
+  width: 85%;
+}
+
+.related{
+  width: 85%;
+}
+
+.related_table{
+  width: 95%;
+}
+
+.details{
+  width: 85%;
+}
+
+}
+
+@media screen and (max-width: 1150px){
+.text{
+width: 50%;
+}
+
+@media screen and (max-width: 1000px){
+.text{
+width: 60%;
+}
+
+@media screen and (max-width: 800px){
+
+main{
+  width: 100%;
+  float: none;
+}
+
+.video_container{
+  width: 100%;
+  height: 30vh;
+}
+
+.vid_container{
+width:90%; 
+height:100%;
+}
+
+aside{
+  width: 100%;
+  float: none;
+}
+
+.text{
+width: 80%;
+}
+
+.ad{
+  width: 85%;
+}
+
+.license{
+  width: 85%;
+  margin: 50px 0 0 0;
+  border: 9px solid #f6f5fa;
+}
+
+.text{
+width: 70%;
+}
+
+.btn_2{
+  width: 80vw;
+  height: 6vh;
+}
+
+.btn_3{
+  width: 80vw;
+  height: 6vh;
+}
+
+.btn_2:hover{
+  width: 80vw;
+  height: 6vh;
+  background-color: #00AE64!important;
+}
+
+.btn_3:hover{
+  width: 80vw;
+  height: 6vh;
+  background-color: rgb(172, 1, 50)!important;
+}
+
+.facebook{
+  width: 85%;
+}
+
+.related{
+  width: 85%;
+}
+
+.related_table{
+  width: 85%;
+}
+
+.details{
+  width: 85%;
+}
+
+.rep{
+width="88%" 
+height="60%"
+}
+
+#sacrificio{
+display: none;
+}
+.vids a{
+  width: 30%;
+  margin: 0 2% 0 2%;
+}
+
+.other_txt{
+  position: absolute;
+  left: 30px;
+  margin: 15px 0 0 0;
+  z-index: 1;
+}
+
+.description_txt{
+  text-align: center;
+  margin: 0 10px 30px 10px;
+}
+
+}
